@@ -4,10 +4,12 @@
   "description": "",
   "main": "dist/B.js",
   "scripts": {
-    "preinstall": "npm link ../A"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "typescript-link-failure-a": "1.0.0"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-typescript": "^2.13.6",
