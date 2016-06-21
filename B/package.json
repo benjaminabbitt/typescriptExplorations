@@ -1,0 +1,16 @@
+{
+  "name": "typescript-link-failure-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/B.js",
+  "scripts": {
+    "preinstall": "npm link ../A"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "merge2": "^1.0.2"
+  }
+}

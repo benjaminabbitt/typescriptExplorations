@@ -1,0 +1,17 @@
+{
+  "name": "typescript-link-failure-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/A.js",
+  "typescript": "dist/A.d.ts",
+  "scripts": {
+    "setup": "npm link"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "merge2": "^1.0.2"
+  }
+}
